@@ -1,7 +1,7 @@
 import axios from "axios";
-
+ 
 const API = axios.create({
-  baseURL: "http://localhost:3003/api/v1/organization", // Ensure the backend URL is correct
+  baseURL: "https://hawkv1.onrender.com/api/v1"
 });
 
 export const initiateRegistration = (data) =>
